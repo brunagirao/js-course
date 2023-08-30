@@ -91,6 +91,39 @@ year = 1996;
 console.log('year 2 => ' + year);
 console.log('year 2 => ' + typeof year);
 
+// JS treats null as an Object
 console.log(typeof null); */
 
+/*****************Let, Const & Var *******************
+ * Let: 
+ *      it's a mutable variable, we can change/reassign values to the variable.
+ *      use when you're sure the variable needs to change at some point of your code.
+ * 
+ * Const: it's unmutable variable, we can't change/reassign values to the variable.
+ *
+ *  Var: 
+ *      it's an old way to declare variables prio ES6. Works as let but have some differences.
+ *      used in legacy codes.
+ * 
+ * Good Practice: 
+ *      always use const instead of let.
+ *      avoid use var in your code.
+
+
+let age = 29;
+age = 89;
+
+const birthDay = 1991;
+
+// We cannot assign a new value from a constant
+//birthDay = 1996;
+// We cannot create an unassigned const
+//const job;
+
+var weight = 89;
+weight = 69;
+
+//Never create a variable without Let or Const
+lastName = 'Girão';
+console.log(lastName); */
 
