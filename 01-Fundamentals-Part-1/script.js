@@ -44,6 +44,31 @@ console.log(population); */
 
 /*****************Data Types********************
 
+Number: 
+        Integer and Float numbers. 
+        JS don't have a type from decimal numbers
+String: 
+        Sequence of characters. 
+        Used for text
+Boolean: 
+        Logical type
+        Can only be true or false
+        Used for taking decisions.
+
+Undefined: Value taken by a variable that is not yet defined ('empty value')
+
+Null: 
+        Also means 'empty value'. 
+        JS treats Null as an Object.
+
+BigInt: 
+        Introduced ES2020
+        Larger Integers than the Number type can hold.
+
+Symbol:
+        Value that is unique
+        Value cannot be changed 
+
 let javaScriptIsFun = true;
 let myName = 'Bruna';
 let myAge = 27;
